@@ -57,4 +57,11 @@ The repository also includes `src/model.py`. Check its input requirements before
 
 ## License
 See the `LICENSE` file for licensing information.
-   
+
+## Results
+
+The repository includes a demonstration video of the pedestrian intent prediction system.
+
+**Demo video:** [View the pedestrian prediction results](results/)
+
+The demonstration illustrates the system's output using the uploaded project video.
