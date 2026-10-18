@@ -60,15 +60,7 @@ See the `LICENSE` file for licensing information.
 
 ## Results
 
-The repository includes a demonstration video of the pedestrian intent prediction system.
+The demonstration video shows the pedestrian intent prediction system in action.
 
-**Demo video:** [View the pedestrian prediction results](results/)
+**Demo video:** [Watch the pedestrian prediction results](result_video.mp4)
 
-The demonstration illustrates the system's output using the uploaded project video.
-## Results
-
-## Results
-
-Watch the project demonstration:
-
-[▶️ View Pedestrian Intent Prediction Video](result_video.mp4)
