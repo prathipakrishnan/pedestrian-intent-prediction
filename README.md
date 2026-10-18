@@ -65,3 +65,7 @@ The repository includes a demonstration video of the pedestrian intent predictio
 **Demo video:** [View the pedestrian prediction results](results/)
 
 The demonstration illustrates the system's output using the uploaded project video.
+## Results
+
+A demonstration video is available in the
+[results folder](results/).
