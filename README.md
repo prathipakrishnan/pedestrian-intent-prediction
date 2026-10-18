@@ -1,26 +1,60 @@
-# pedestrian-intent-prediction
-Spatio-temporal deep learning model combining YOLOv8 and BiLSTM with attention for pedestrian intent prediction on JAAD &amp; PIE datasets.
+# Pedestrian Intent Prediction for Autonomous Vehicles
 
-# Spatio-Temporal Pedestrian Intent Prediction for Autonomous Vehicles
+## Project Overview
+This project focuses on predicting pedestrian crossing intentions using computer vision and spatio-temporal deep learning. It combines YOLOv8-based object detection with LSTM-based temporal analysis to study pedestrian movement patterns.
 
-This repository contains the source code and implementation for predicting pedestrian road-crossing intentions using a spatio-temporal deep learning architecture that combines **YOLOv8** for spatial object detection and **BiLSTM with attention mechanisms** for temporal trajectory analysis.
+## Technologies
+- Python
+- YOLOv8
+- PyTorch
+- OpenCV
+- NumPy
+- Pandas
+- Jupyter Notebook
 
-## 🚗 Project Overview
-Accurately predicting pedestrian intent is critical for autonomous driving safety. This model processes video sequences from standard datasets like **JAAD** and **PIE**, tracks pedestrian bounding boxes, analyzes historical motion patterns, and computes time-to-collision (TTC) to support real-time braking decisions.
+## Repository Structure
+```text
+pedestrian-intent-prediction/
+├── src/
+│   ├── JAAD_1 (3).ipynb
+│   └── model.py
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+└── README.md
+```
 
-##  Repository Structure
-- `src/` - Contains core model architectures, data processing scripts, and real-time simulation pipelines.
-- `requirements.txt` - Python package dependencies.
-- `LICENSE` - Open-source license for the repository.
+## Datasets
+The project is intended to work with the JAAD and PIE pedestrian-behavior datasets. These datasets are not included in this repository and must be obtained separately.
 
-##  Installation & Setup
+## Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/prathipakrishnan/pedestrian-intent-prediction.git](https://github.com/prathipakrishnan/pedestrian-intent-prediction.git)
-   cd pedestrian-intent-prediction
+Clone the repository:
+
+```bash
+git clone https://github.com/prathipakrishnan/pedestrian-intent-prediction.git
+cd pedestrian-intent-prediction
+```
+
+Install the required packages:
+
+```bash
 pip install -r requirements.txt
+```
 
-python src/simulation.py
+## Running the Notebook
 
+Start Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Open `src/JAAD_1 (3).ipynb` and follow the notebook cells. Dataset paths and model weights may need to be configured locally.
+
+## Python Script
+The repository also includes `src/model.py`. Check its input requirements before running it independently.
+
+## License
+See the `LICENSE` file for licensing information.
    
